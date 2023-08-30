@@ -32,7 +32,14 @@
  hat = Hat()
 
  hat.sort("harry")
-
-if __name__ == "__main":
- 
 ```
+
+@classmethod
+properties
+decorator
+instancemethod
+constructor
+
+why its used 
+if__name__(self) == "__main__" 
+    main() 
