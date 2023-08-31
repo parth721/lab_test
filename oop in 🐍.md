@@ -34,11 +34,17 @@
  hat.sort("harry")
 ```
 
-@classmethod
-properties
-decorator
-instancemethod
-constructor
+@classmethod : a func.  that operate on a class itself rather than on instance.
+
+@instancemethod : a function within a class that operate on an instance of that class. It takes the instance itself ('self') as an argument. Allowing it to access & modify instance specific attribute's behavior.
+
+@staticmethod : a function that is defined within class but it doesn't have access to the instance or class . They can be called as `result = Math.add_num(5,7)`
+
+properties : They allow you to define methods that are used to get, set, delete values of specific attributes.
+
+decorator : Python tool used to modify the behavior of the function.
+
+constructor : A special fuction that modify the behavior of the function.
 
 why its used 
 if__name__(self) == "__main__" 
