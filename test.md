@@ -1,0 +1,2 @@
+here i am looking whether we can change the content of any file from PR without doing manual git revert. from github.
+Everyting before aug30 get restored and the files comes with a red mark. just use ctrl + s to save them if you dont, want to lose them.
