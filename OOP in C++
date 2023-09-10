@@ -1,0 +1,28 @@
+Let's start with memory allocation & de-allocation :
+   If you write a program with it get stored in stack memory. For example
+
+```
+#include<iostream>
+using namespace std;
+
+function text(string name){
+string concat = "hello " + name
+return concat
+}
+
+int main(){
+
+string username;
+string message;
+cout << "your name : ";
+cin >> username;
+message = text(username);
+cout << message << endl;
+
+return 0;
+}
+
+```
+In stack memory it is stored in stack format first [ main(), username, message] top of this text(). But the obstacle with stack memory allocation it that. If want a differnt order of function call, is not possible & stack memory size is fixed due to which it can't be increased during runtime(unable to use recursive function, afte a point).
+<br> 
+To fix this we have **Heap memory**. So, that the memory size can be changed dynamically & different orders can be used, we use pointers to point the value in Heap form Stack.
